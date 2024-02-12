@@ -8,8 +8,8 @@ services:
     container_name: wmp2mqtt
     environment:
       - MQTT_SERVER=mqtt://mqtt.bailey9.com
-      - MQTT_USER=iot
-      - MQTT_PASS=w4kz7nB6ACw5rp
+      - MQTT_USER=
+      - MQTT_PASS=
       - RETAIN=true
       - WMP_IPS=192.168.100.14
     restart: unless-stopped
